@@ -4,8 +4,8 @@ import { io } from 'socket.io-client';
 import Lobby from './Lobby';
 import './MultiplayerGame.css';
 
-const socket = io('http://localhost:3000'); // Make sure your server is running
-
+const socket = io(import.meta.env.VITE_API_URL);
+ // Make sure your server is running
 const MultiplayerGame = ({ onBack }) => {
   const [inRoom, setInRoom] = useState(false);
   const [playerName, setPlayerName] = useState('');
