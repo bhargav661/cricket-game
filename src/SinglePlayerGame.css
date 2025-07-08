@@ -1,0 +1,25 @@
+.hint {
+  font-size: 1.2em;
+  color: #222;
+  margin-top: 8px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}

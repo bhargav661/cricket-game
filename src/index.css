@@ -1,0 +1,15 @@
+/* Add to both SinglePlayerGame.css and MultiplayerGame.css */
+.back-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.back-btn:hover {
+  background: rgba(0,0,0,0.9);
+}

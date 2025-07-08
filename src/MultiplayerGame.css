@@ -1,0 +1,50 @@
+.multiplayer-container {
+  text-align: center;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
+.lobby-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-box input {
+  padding: 10px;
+  margin: 8px;
+  font-size: 1rem;
+  width: 240px;
+}
+
+.room-actions {
+  margin-top: 10px;
+}
+
+.room-actions button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #0a7cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.room-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.room-info li {
+  margin: 5px;
+  font-weight: bold;
+}
